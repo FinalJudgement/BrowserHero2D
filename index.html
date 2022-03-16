@@ -8,9 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, nice to meet you. This here? oh... it's just Browser Hero in 2D. :)</h1>
-    <h1>Coming soon :)</h1>
     <canvas id="canvas1"></canvas>
+<div class="controls">
+    <label for="animations">Choose Animation:</label>
+        <select name="animations" id="animations">
+            <option value="idle">Idle</option>
+            <option value="jump">Jump</option>
+            <option value="run">Run</option>
+            <option value="run_attack">Running Attack</option>
+            <option value="walk">Walk</option>
+            <option value="walk_attack">Walking Attack</option>
+            <option value="attack">Attack</option>
+            <option value="attack_extra">Attack Heavy</option>
+            <option value="climb">Climb</option>
+            <option value="high_jump">High jump</option>
+            <option value="hurt">Hurt</option>
+            <option value="push">Push</option>
+        </select>
+    
+</div>
     <script src="script.js" type="module"></script>
 </body>
 </html>
